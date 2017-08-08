@@ -1,0 +1,52 @@
+{% macro render_blog_post(post, from_index=false) %}
+  <article class="blog-post h-entry">
+  {% if from_index %}
+    <h2 class="p-name"><a href="{{ post|url }}">{{ post.title }}</a></h2>
+  {% else %}
+    <h1>{{ post.title }}</h1>
+  {% endif %}
+  <p class="meta">
+    {% if post.author %}
+      written by {{ post.author }},
+    {% endif %}
+    published on <time class="dt-published" datetime="{{ post.pub_date }}">{{ post.pub_date.strftime("%b %-d, %Y")}}</time>
+  </p>
+  <div class="e-content">
+    {% if from_index %}
+      {{ post.body|excerpt }}
+      <a href="{{ post|url }}" class="u-url">Read more...</a>
+    {% else %}
+      {{ post.body }}
+    {% endif %}
+  </div>
+  </article>
+{% endmacro %}
+
+{% macro disqus_comments(post) %}
+  {% set disqus_shortname = config.values.PROJECT.get("disqus") %}
+  {% if disqus_shortname %}
+  <div id="disqus_thread"></div>
+  <script>
+    var disqus_config = function() {
+      this.page.url = {{ post|url(external=True)|tojson }};
+      this.page.identifier = {{ post.path|tojson }};
+      this.page.title = {{ post.title|tojson }};
+      {% if post.category_id %}
+      this.page.category_id = {{ post.category_id|tojson }};
+      {% endif %}
+    };
+    (function() {
+      var d = document, s = d.createElement('script');
+      s.src = '//{{ disqus_shortname }}.disqus.com/embed.js';
+      s.setAttribute('data-timestamp', +new Date());
+      (d.head || d.body).appendChild(s);
+    })();
+  </script>
+  <noscript>
+    Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript"
+      rel="nofollow">comments powered by Disqus.</a>
+  </noscript>
+  {% else %}
+  <!-- disqus comments are not configured -->
+  {% endif %}
+{% endmacro %}

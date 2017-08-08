@@ -1,0 +1,15 @@
+name: Swiper
+---
+_hidden: yes
+---
+documentation: https://pdfs.semanticscholar.org/3cac/da097db708294d1af5b7b44857a32ff629af.pdf
+---
+start_date: 2013-06-01
+---
+end_date: 2015-06-01
+---
+description:
+
+Swiper is a framework that demonstrates a new type of security vulnerability caused by competition between virtual I/O workloads - i.e., by leveraging the competition for shared resources, an adversary could intentionally slow down the execution of a targeted application in a VM that shares the same hardware.
+
+We conducted a comprehensive set of experiments in AWS to demonstrate that Swiper is capable of significantly slowing down various server applications while consuming only a small amount of resources.

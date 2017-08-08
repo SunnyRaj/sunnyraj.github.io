@@ -1,0 +1,36 @@
+title: Hey, I'm Sunny Raj
+---
+html_title: Sunny Raj
+---
+summary: Sunny Raj: systems researcher and programmer, open source contributor and an academic writer.
+---
+body:
+
+Systems researcher and programmer. Language enthusiast. Avid and a quick learner. I'm quick on my feet when it comes to learning and implementing new technology. Love researching about systems, looking into the unknown and pushing the envelope.
+
+More formally, my research focus is on virtual machines and operating systems, combining a deep understanding of resource management in the cloud and systems security issues with expertise in developing systems with real-world impact. I’ve designed systems that:
+
+* improve the performance in data-centers by utilizing all of the resources available efficiently, and
+* provide tight and scalable security to the Virtual Machines that run on the cloud.
+
+# Research
+
+## Conference Papers
+
+**Scalable Cloud Security via Asynchronous Virtual Machine Introspection.** Sundaresan Rajasekaran, Zhen Ni, Harpreet Singh Chawla, Neel Shah, Timothy Wood, Emery Berger. 8th USENIX Workshop on Hot Topics in Cloud Computing (HotCloud 16), June 2016\. [PDF](http://faculty.cs.gwu.edu/~timwood/papers/16-HotCloud-scaas.pdf)
+
+**Multi-Cache: Dynamic, Efficient Partitioning for Multi-Tier Caches in Consolidated VM Environments.** Sundaresan Rajasekaran, Shaohua Duan, Wei Zhang, Timothy Wood. IEEE International Conference on Cloud Engineering (IC2E), April 2016\. [PDF](http://faculty.cs.gwu.edu/~timwood/papers/16-IC2E-multicache.pdf)
+
+**MIMP: Deadline and Interference Aware Scheduling of Hadoop Virtual Machines.** Wei Zhang, Sundaresan Rajasekaran, Timothy Wood, Mingfa Zhu. IEEE/ACM International Symposium on Cluster, Cloud and Grid Computing, May 2014\. [PDF](http://faculty.cs.gwu.edu/~timwood/papers/14-CCGrid-mimp.pdf)
+
+**Big Data in the Background: Maximizing Productivity while Minimizing Virtual Machine Interference.** Wei Zhang, Sundaresan Rajasekaran, Timothy Wood. Workshop on Architectures and Systems for Big Data, June 2013\. [PDF](http://faculty.cs.gwu.edu/~timwood/papers/ASBD13-background.pdf)
+
+**On Skyline Groups.** Chengkai Li, Nan Zhang, Naeemul Hassan, Sundaresan Rajasekaran, and Gautam Das. Proceedings of the ACM International Conference on Information and Knowledge Management (CIKM), 2012\. [PDF](http://ranger.uta.edu/~cli/pubs/2012/skylinegroup-cikm12-final-lzhrd-aug12.pdf) [Extended-PDF](https://cse.uta.edu/research/Publications/CSE-2012-2.pdf)
+
+## Journal Articles
+
+**Swiper: Exploiting Virtual Machine Vulnerability in Third-Party Clouds with Competition for I/O Resources.**. Ron C. Chiang, Sundaresan Rajasekaran, Nan Zhang, H. Howie Huang. IEEE Transactions on Parallel and Distributed Systems (TPDS). June 2015\. [PDF](http://www2.seas.gwu.edu/~howie/publications/Swiper_IEEE15.pdf)
+
+**Minimizing Interference and Maximizing Progress for Hadoop Virtual Machines.** Wei Zhang, Sundaresan Rajasekaran, Shaohua Duan, Timothy Wood, Mingfa Zhu. ACM SIGMETRICS Performance Evaluation Review, March 2015\. [PDF](http://faculty.cs.gwu.edu/~timwood/papers/15-PER-mimp.pdf)
+
+**On Skyline Groups.** Nan Zhang, Chengkai Li, Naeemul Hassan, Sundaresan Rajasekaran, and Gautam Das. IEEE Transactions on Knowledge and Data Engineering (TKDE), April 2014\. [PDF](http://ranger.uta.edu/~cli/pubs/2014/skylinegroup-preprint-zlrhd-nov13.pdf)

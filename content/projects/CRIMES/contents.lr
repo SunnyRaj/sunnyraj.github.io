@@ -1,0 +1,11 @@
+name: CRIMES
+---
+_hidden: yes
+---
+repository: https://github.com/SunnyRaj/crimes
+---
+start_date: 2016-04-14
+---
+description: CRIMES: Using Evidence to Secure the Cloud, is an evidence based, modular security framework for cloud platforms that uses speculative execution coupled with memory introspection tools such as Volatility to detect malicious behavior in real time. CRIMES incurs less overhead compared to memory protection tools such as AddressSanitizer, while offering valuable forensic analysis for buffer overflow attacks and malware detection across multiple applications and the OS.
+---
+_discoverable: yes

@@ -1,0 +1,35 @@
+company: The George Washington University
+---
+_hidden: yes
+---
+website: https://www.cloudlock.com
+---
+title: Research Assistant
+---
+start_date: 2015-09-01
+---
+description:
+
+* Conducted extensive experiments on Cloud Platforms such as AWS, Azure and Google Cloud.
+* Migrated batch jobs from Virtual Machines to Docker on AWS.
+* Implemented modules that run on VM Manager to reduce performance bottlenecks.
+* Published several projects on top-tier conferences and Journals.
+
+* Developed power-aware software systems that utilized 10% less power in the data center.
+* Implemented a system that efficiently mined Enterprise search engine corpus.
+* Assisted in developing privacy preserving location (Anonymous GPS) based systems.
+* Was one among 12 students to receive the first ever NSF I-Corps award to carry the research at Stanford University. 
+
+* Implemented a framework for online detection of attacks in Virtual Machines.
+* Improved the performance of Xen Hypervisor’s checkpoint mechanism by 70%.
+
+* Implemented a novel security mechanism for Cloud Systems.
+* Used memory introspection techniques to protect VMs from memory based attacks. 
+* Implemented a standalone disk-storage simulator from scratch.
+* Developed models to analyze terabytes of storage trace data in sub-millisecond interval.
+
+* Implemented a Hadoop Job scheduler for customized load balance.
+* Modified the Linux CPU scheduler to avoid interference between VMs. 
+
+* Implemented a new priority level built into Xen Hypervisor Credit Scheduler.
+* Implemented a tool to study the resource utilization of 192 production servers.

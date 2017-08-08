@@ -1,0 +1,97 @@
+header {
+  margin-top: 1.5rem;
+  max-width: 22rem;
+
+  a {
+    color: $gray-dark;
+
+    &:hover {
+      color: $gray-dark;
+      text-decoration: none;
+    }
+  }
+
+  .contact-icons {
+    margin-bottom: 0;
+
+    a:hover {
+      color: $gray;
+    }
+  }
+
+  .logo-block img {
+    height: 4rem;
+  }
+}
+
+.nav-menu-toggle {
+  display: block;
+  text-align: center;
+  background-image: linear-gradient(to right,
+    rgba(0, 0, 0, 0),
+    $gray-dark,
+    $gray-dark,
+    rgba(0, 0, 0, 0)
+  );
+  color: $gray-lightest;
+  margin-top: 1rem;
+  width: 100%;
+
+  &:hover, &:focus {
+    color: $gray-lightest;
+    text-decoration: none;
+  }
+}
+
+.nav {
+  margin-left: 1rem;
+}
+
+@include media-breakpoint-up(md) {
+  header {
+
+    .logo-block {
+      margin-bottom: 1rem;
+
+      img {
+        height: 5rem;
+      }
+    }
+  }
+  .nav-menu-toggle {
+    display: none;
+  }
+  .nav-menu.collapse {
+    display: block;
+  }
+
+  .fixed-container {
+    position: fixed;
+    width: 100%;
+    @include make-container-max-widths();
+
+    .fixed-sidebar {
+      width: 25%;
+      padding-right: $grid-gutter-width-base;
+    }
+  }
+}
+
+.nav-first {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.nav .nav-item .hover-icon {
+  visibility: hidden;
+}
+.nav .nav-item:hover .hover-icon {
+  visibility: visible;
+}
+
+// don't print the menu at all
+@media print {
+  .sidebar {
+    display: none;
+  }
+}

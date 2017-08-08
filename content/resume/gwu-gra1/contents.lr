@@ -1,0 +1,27 @@
+company: The George Washington University
+---
+_hidden: yes
+---
+title: Graduate Research Assistant
+---
+start_date: 2009-01-01
+---
+end_date: 2012-07-01
+---
+description:
+
+* Developed power-aware software systems that utilized 10% less power compared to other similar systems.
+
+* Implemented a system that efficiently mined Enterprise search engine corpus by issuing aggregate queries to its database – received NSF I-Corps award to carry the research at Stanford University.
+
+* Developed mathematical models and algorithmic techniques for output compression, input pruning, and search space pruning.
+
+* For search space pruning, I developed novel anti-monotonic properties to filter out candidate groups.
+
+* Implemented a novel workload based performance attack of Cloud Systems.
+Conducted extensive experimentation of the attack on Amazon Web Services platform. 
+
+* Implemented several algorithms to increase the CPU and memory utilization of the Cloud.
+Proposed and tested models to efficiently run Hadoop jobs using data centers’ spare resources.
+
+* Implemented statistically sound techniques to find skyline groups.

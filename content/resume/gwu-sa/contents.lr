@@ -1,0 +1,17 @@
+company: The George Washington University
+---
+_hidden: yes
+---
+website: https://it.gwu.edu/
+---
+title: System Administrator Intern
+---
+start_date: 2012-09-01
+---
+end_date: 2013-05-01
+---
+description:
+
+* Virtualized 20% of the physical servers to run on a private cloud, cutting 50% of the costs on power.
+
+* Reduced the down time for several web/mail servers up to 50% that occurred after system update by writing scripts to automate database initialization and automated the procedure for Operating System patches and updates.

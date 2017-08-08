@@ -1,0 +1,22 @@
+{% extends "layout.html" %}
+
+{% block title %}
+  {%- if this.html_title -%}
+    {{ this.html_title }}
+  {%- elif this.title -%}
+    {{ this.title }} | {{ super() }}
+  {%- else -%}
+    {{ super() }}
+  {%- endif -%}
+{% endblock %}
+
+{% block head_extra %}
+  {% if this.summary %}
+  <meta name="description" content="{{ this.summary }}" />
+  {% endif %}
+{% endblock%}
+
+{% block body %}
+  <h1>{{ this.title }}</h1>
+  {{ this.body }}
+{% endblock %}
