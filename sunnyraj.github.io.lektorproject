@@ -6,3 +6,13 @@ lektor-webpack-support = 0.3
 lektor-markdown-highlighter = 0.1
 lektor-markdown-excerpt = 0.1
 lektor-atom = 0.2
+
+
+[servers.ghpages]
+target = ghpages://sunnyraj/sunnyraj.github.io
+
+[servers.production]
+name = Production
+enabled = yes
+default = yes
+target = ghpages://sunnyraj/sunnyraj.github.io?cname=www.thesunnyraj.com
