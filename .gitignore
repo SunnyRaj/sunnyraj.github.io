@@ -1,8 +1,0 @@
-.DS_Store
-*.pyc
-*.egg-info
-.cache
-assets/static/gen
-packages/*/build
-packages/*/dist
-webpack/node_modules
